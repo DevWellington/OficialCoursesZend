@@ -81,9 +81,13 @@ Garanta as permissoes para os usuarios de acordo com a necessidade da acplicacao
     
 - Permissoes de acesso a: 
     
-        - Base de Dados (usuarios especificos para as aplicacoes externas)
-        - Diretorios (Permissoes considerando sempre a seguranca da aplicacao) 
-        - Permisoes nos diretorios (nunca utilize 777, e sempre considere o XX0 - usuario anonimo nao deve fazer nada na aplicacao)
+        - Base de Dados 
+        	- usuarios especificos para as aplicacoes externas
+        - Diretorios 
+        	- Permissoes considerando sempre a seguranca da aplicacao
+        - Permisoes nos diretorios 
+        	- Nunca utilize 777, e sempre considere o XX0 
+        	- Usuario anonimo nao deve fazer nada na aplicacao
         
 **Cookies**
 
